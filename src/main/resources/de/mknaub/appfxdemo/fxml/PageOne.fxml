@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane prefHeight="125.0" prefWidth="125.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.mknaub.appfxdemo.ctrl.PageOneCtrl">
+   <center>
+      <Label fx:id="label" text="Label" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
