@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.mknaub</groupId>
     <artifactId>AppFXDemo</artifactId>
-    <version>0.1</version>
+    <version>0.1-release</version>
     <packaging>jar</packaging>
     <name>AppFXDemo</name>
 
@@ -148,9 +148,9 @@
             <version>1.16.8</version>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>de.mknaub</groupId>
             <artifactId>app-fx</artifactId>
-            <version>${project.version}</version>
+            <version>0.3-dev-hotfixes</version>
         </dependency>
     </dependencies>
 </project>
