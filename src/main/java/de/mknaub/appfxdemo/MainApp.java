@@ -10,7 +10,7 @@ import javafx.scene.Parent;
 public class MainApp extends AppFx {
 
     @Override
-    public void start(Stage stage) throws Exception {
+    protected void startApplication(Stage stage) throws Exception {
         Scene scene = new Scene((Parent) getController(MainCtrl.class).getView());
         stage.setTitle("JavaFX and Maven");
         stage.setScene(scene);

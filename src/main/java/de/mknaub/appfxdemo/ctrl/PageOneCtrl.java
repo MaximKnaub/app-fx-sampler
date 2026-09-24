@@ -2,7 +2,7 @@ package de.mknaub.appfxdemo.ctrl;
 
 import de.mknaub.appfx.annotations.Controller;
 import de.mknaub.appfx.controller.AbstractController;
-import de.mknaub.appfx.utils.Scope;
+import de.mknaub.appfx.annotations.Scope;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javax.annotation.PostConstruct;
